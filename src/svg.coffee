@@ -4,17 +4,19 @@ jsdom = require('jsdom')
 
 class SVG
     constructor: () ->
-        filename = require.resolve('../../node_modules/raphael/raphael')
+        filename = require.resolve('../node_modules/raphael/raphael')
         code = fs.readFileSync(filename)
         @_script = vm.createScript(code, filename)
 
     _raphael: (win, doc, nav) ->
+        win.Raphael = {}
         ctx =
             module:    {}
             window:    win
             document:  doc
             navigator: nav
             console:   console
+            setTimeout: setTimeout
         @_script.runInNewContext(ctx)
         ctx.module.exports
 
