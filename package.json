@@ -1,5 +1,5 @@
 {
-    "name": "node-raphael-2",
+    "name": "node-raphael",
     "description": "wrapper for raphael for usage in nodejs, compatible with raphael 2.1.0",
     "version": "2.1.0",
     "homepage": "https://github.com/dodo/node-raphael",
