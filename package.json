@@ -1,7 +1,7 @@
 {
-    "name": "node-raphael",
+    "name": "node-raphael-2",
     "description": "wrapper for raphael for usage in nodejs, compatible with raphael 2.1.0",
-    "version": "0.1.8",
+    "version": "2.1.0",
     "homepage": "https://github.com/dodo/node-raphael",
     "repository": {
         "type": "git",
