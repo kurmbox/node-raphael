@@ -5,7 +5,7 @@
     "homepage": "https://github.com/dodo/node-raphael",
     "repository": {
         "type": "git",
-        "url": "git://github.com/dodo/node-raphael.git"
+        "url": "git://github.com/kurmbox/node-raphael.git"
     },
     "author": "dodo (https://github.com/dodo)",
     "main": "node-raphael.js",
